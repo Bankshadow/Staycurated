@@ -3,3 +3,10 @@ dist/
 data/*.sqlite
 data/*.sqlite-*
 work/
+
+# wrangler files
+.wrangler
+.dev.vars*
+!.dev.vars.example
+.env*
+!.env.example
